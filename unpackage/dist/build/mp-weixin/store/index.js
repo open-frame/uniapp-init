@@ -1,1 +1,0 @@
-"use strict";const e=require("../common/vendor.js");require("./modules/custom.js"),require("./modules/program.js"),require("./modules/system.js"),require("./modules/theme.js"),exports.setupStore=function(s){const r=e.createPinia();s.use(r)};

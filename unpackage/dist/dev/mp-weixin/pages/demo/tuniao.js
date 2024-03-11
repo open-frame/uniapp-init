@@ -1,1 +1,0 @@
-"use strict";const t=require("../../common/vendor.js");Array||t.resolveComponent("tn-button")();const o=()=>"../../uni_modules/tuniaoui-vue3/components/button/src/button.js";Math||o();const e={__name:"tuniao",setup(n){return(_,u)=>({})}},s=t._export_sfc(e,[["__file","C:/Users/全易/Documents/公司/mini-app/pages/demo/tuniao.vue"]]);wx.createPage(s);

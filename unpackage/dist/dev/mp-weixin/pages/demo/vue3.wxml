@@ -1,1 +1,0 @@
-<view>{{a}}</view><view>{{b}}</view><view>{{c}}</view><view>{{d}}</view><view class="text-red">{{e}}</view>

@@ -1,1 +1,0 @@
-"use strict";const e=require("../../common/vendor.js"),c={};function n(s,o){return{}}const r=e._export_sfc(c,[["render",n],["__file","C:/Users/全易/Documents/公司/mini-app/pages/demo/unocss.vue"]]);wx.createPage(r);

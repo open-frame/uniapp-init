@@ -1,1 +1,0 @@
-<view class="m-5"><button plain type="primary" bindtap="{{a}}">unocss demo</button><button plain type="primary" bindtap="{{b}}" class="mt-3">vue3 demo</button><button plain type="primary" bindtap="{{c}}" class="mt-3">tuniao demo</button><button plain type="primary" bindtap="{{d}}" class="mt-3">pinia demo</button></view>
