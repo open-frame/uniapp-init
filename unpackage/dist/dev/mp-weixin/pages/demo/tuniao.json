@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "tuniao展示",
+  "usingComponents": {
+    "tn-button": "../../uni_modules/tuniaoui-vue3/components/button/src/button"
+  }
+}

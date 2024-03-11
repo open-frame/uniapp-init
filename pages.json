@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/requset/users",
+			"style": {
+				"navigationBarTitleText": "发请求案例"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pages/status",
+			"pages": [{
+				"path": "abnormal/index",
+				"style": {
+					"navigationBarTitleText": "异常告知"
+				}
+			}]
+		},
+		{
+			"root": "pages/demo",
+			"pages": [{
+					"path": "unocss",
+					"style": {
+						"navigationBarTitleText": "unocss展示"
+					}
+				},
+				{
+					"path": "vue3",
+					"style": {
+						"navigationBarTitleText": "vue3语法展示"
+					}
+				},
+				{
+					"path": "pinia",
+					"style": {
+						"navigationBarTitleText": "pinia展示"
+					}
+				},
+				{
+					"path": "iconify",
+					"style": {
+						"navigationBarTitleText": "iconify展示"
+					}
+				},
+				{
+					"path": "tuniao",
+					"style": {
+						"navigationBarTitleText": "tuniao展示"
+					}
+				}
+			]
+		}
+	],
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/maintain-0.png",
+				"selectedIconPath": "static/tabbar/maintain-1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/requset/users",
+				"iconPath": "static/tabbar/commercial-0.png",
+				"selectedIconPath": "static/tabbar/commercial-1.png",
+				"text": "请求"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),o={__name:"index",setup(o){function n(o){e.index.navigateTo({url:o})}return e.onShareAppMessage((()=>{})),e.onShareTimeline((()=>{})),(o,a)=>({a:e.o((e=>n("/pages/demo/unocss"))),b:e.o((e=>n("/pages/demo/vue3"))),c:e.o((e=>n("/pages/demo/iconify"))),d:e.o((e=>n("/pages/demo/pinia")))})},__runtimeHooks:6};wx.createPage(o);

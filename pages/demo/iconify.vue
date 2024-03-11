@@ -1,0 +1,14 @@
+<template>
+	<view class="">
+		iconify出不来，待排查
+	</view>
+	<view class="i-ri:money-cny-circle-line"></view>
+	<view class="i-simple-icons:juejin"></view>
+	<view class="i-fa:user"></view>
+</template>
+
+<script setup>
+
+</script>
+
+<style scoped lang="scss"></style>
