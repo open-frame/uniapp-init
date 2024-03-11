@@ -1,4 +1,8 @@
 {
+	  "repository": {
+	    "type": "git",
+	    "url": "https://gitee.com/charrie/vue3-uniapp-init"
+	  },
   "devDependencies": {
     "unplugin-auto-import": "^0.17.5"
   },
