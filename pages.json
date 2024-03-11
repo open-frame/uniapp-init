@@ -41,18 +41,6 @@
 					"style": {
 						"navigationBarTitleText": "pinia展示"
 					}
-				},
-				{
-					"path": "iconify",
-					"style": {
-						"navigationBarTitleText": "iconify展示"
-					}
-				},
-				{
-					"path": "tuniao",
-					"style": {
-						"navigationBarTitleText": "tuniao展示"
-					}
 				}
 			]
 		}
