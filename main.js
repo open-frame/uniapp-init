@@ -1,8 +1,8 @@
 import App from './App'
 import { createSSRApp } from 'vue'
 import { setupStore } from './store/index.js'
-import uviewPlus from '@/uni_modules/uview-plus'
-import "@/uni_modules/uview-plus/index.scss"
+import uviewPlus from 'uview-plus'
+import "uview-plus/index.scss"
 
 
 export function createApp() {
