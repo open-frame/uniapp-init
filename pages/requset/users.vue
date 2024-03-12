@@ -1,15 +1,15 @@
 <template>
-	<div class="m-5">
-		<button plain @tap="getUsers">获取用户列表</button>
-		<view class="mt-3">共计：{{ total }}</view>
-		<view class="flex justify-between" v-for="(item,index) in pageData">
+	<button plain @tap="getUsers">获取用户列表</button>
+	<view class="mt-3">共计：{{ total }}</view>
+
+	<sar-list v-if="pageData.length>0">
+		<sar-list-item v-for="(item,index) in pageData">
 			<image :src="item.avatar" mode="widthFix" style="width: 50px;"></image>
-			<view class="text-end">
-				<view class="">{{ item.username }}</view>
-				<text class="mr-1" v-for="(role,index) in item.roles">{{ role.name }}</text>
-			</view>
-		</view>
-	</div>
+			<view class="">{{ item.username }}</view>
+		</sar-list-item>
+	</sar-list>
+	
+	<sar-empty v-else />
 </template>
 
 <script setup>
