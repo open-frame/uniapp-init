@@ -7,9 +7,9 @@
 			}
 		},
 		{
-			"path": "pages/firstUI/demo",
+			"path": "pages/sard/demo",
 			"style": {
-				"navigationBarTitleText": "firstUI组件案例"
+				"navigationBarTitleText": "sard组件案例"
 			}
 		},
 		{
@@ -37,15 +37,15 @@
 					}
 				},
 				{
-					"path": "pinia",
+					"path": "form",
 					"style": {
-						"navigationBarTitleText": "pinia展示"
+						"navigationBarTitleText": "表单演示"
 					}
 				},
 				{
-					"path": "unocss",
+					"path": "pinia",
 					"style": {
-						"navigationBarTitleText": "unocss案例展示"
+						"navigationBarTitleText": "pinia展示"
 					}
 				}
 			]
@@ -59,7 +59,7 @@
 				"text": "首页"
 			},
 			{
-				"pagePath": "pages/firstUI/demo",
+				"pagePath": "pages/sard/demo",
 				"iconPath": "static/tabbar/commercial-0.png",
 				"selectedIconPath": "static/tabbar/commercial-1.png",
 				"text": "组件"
@@ -75,7 +75,7 @@
 	"easycom": {
 		"autoscan": true,
 		"custom": {
-			"fui-(.*)": "firstui-uni/firstui/fui-$1/fui-$1.vue"
+			"^sar-(.*)": "sard-uniapp/components/$1/$1.vue"
 		}
 	},
 	"globalStyle": {

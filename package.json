@@ -9,6 +9,6 @@
 	"dependencies": {
 		"firstui-uni": "^2.3.0",
 		"pinia": "^2.1.7",
-		"unocss": "^0.58.5"
+		"sard-uniapp": "^1.0.4"
 	}
 }

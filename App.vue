@@ -30,4 +30,8 @@
 	})
 </script>
 
+<style lang="scss">
+  @import 'sard-uniapp/index.scss';
+</style>
+
 <style></style>

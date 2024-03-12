@@ -1,15 +1,13 @@
 <template>
-	<fui-grid :columns="2">
-		<fui-grid-item v-for="(item,index) in gridview" :key="index" @tap="toPage(item.path)">
-			<view class="flex justify-center items-center h-full">
-				<view class="text-center">
-					<image src="/static/tabbar/my-1.png" style="height: 30px; width: 30px;"></image>
-					<view>{{ item.title }}</view>
-				</view>
+	<sar-button>按钮</sar-button>
+	<sar-grid :columns="2" square gap="20rpx">
+		<sar-grid-item v-for="(item,index) in gridview" :key="index" @tap="toPage(item.path)">
+			<view class="modlus">
+				<sar-icon :name="item.icon" />
+				<view class="grid-box">{{ item.title }}</view>
 			</view>
-		</fui-grid-item>
-	</fui-grid>
-
+		</sar-grid-item>
+	</sar-grid>
 
 </template>
 
@@ -17,37 +15,31 @@
 	onShareAppMessage(() => {})
 	onShareTimeline(() => {})
 
-
+	// wx.login({
+	// 	success(e){
+	// 		console.log(e.code);
+	// 	}
+	// })
 	const gridview = [{
 			path: '/pages/demo/vue3',
 			title: 'vue3',
-			icon: ""
+			icon: "image"
 		},
 		{
 			path: '/pages/demo/pinia',
 			title: 'pinia',
-			icon: ""
+			icon: "image"
 		},
 		{
-			path: '/pages/demo/unocss',
-			title: 'unocss',
-			icon: ""
+			path: '/pages/demo/form',
+			title: 'form',
+			icon: "image"
 		},
 		{
 			path: '',
 			title: '沙漏',
-			icon: ""
+			icon: "image"
 		},
-		{
-			path: '',
-			title: '首页',
-			icon: ""
-		},
-		{
-			path: '',
-			title: '音量',
-			icon: ""
-		}
 	]
 
 	function toPage(url) {
@@ -61,4 +53,12 @@
 	}
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+	.modlus {
+		height: -webkit-fill-available;
+		width: -webkit-fill-available;
+		background-color: #f0f8ff;
+		padding: 58px;
+		text-align: center;
+	}
+</style>
