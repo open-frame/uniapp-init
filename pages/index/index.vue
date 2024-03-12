@@ -1,21 +1,64 @@
 <template>
-	<button plain type="primary" @tap="toPage('/pages/demo/vue3')" class="mt-3">vue3 demo</button>
-	<button plain type="primary" @tap="toPage('/pages/demo/pinia')" class="mt-3">pinia demo</button>
+	<fui-grid :columns="2">
+		<fui-grid-item v-for="(item,index) in gridview" :key="index" @tap="toPage(item.path)">
+			<view class="flex justify-center items-center h-full">
+				<view class="text-center">
+					<image src="/static/tabbar/my-1.png" style="height: 30px; width: 30px;"></image>
+					<view>{{ item.title }}</view>
+				</view>
+			</view>
+		</fui-grid-item>
+	</fui-grid>
+
+
 </template>
 
 <script setup>
 	onShareAppMessage(() => {})
 	onShareTimeline(() => {})
 
+
+	const gridview = [{
+			path: '/pages/demo/vue3',
+			title: 'vue3',
+			icon: ""
+		},
+		{
+			path: '/pages/demo/pinia',
+			title: 'pinia',
+			icon: ""
+		},
+		{
+			path: '/pages/demo/unocss',
+			title: 'unocss',
+			icon: ""
+		},
+		{
+			path: '',
+			title: '沙漏',
+			icon: ""
+		},
+		{
+			path: '',
+			title: '首页',
+			icon: ""
+		},
+		{
+			path: '',
+			title: '音量',
+			icon: ""
+		}
+	]
+
 	function toPage(url) {
+		if (!url) {
+			return
+		}
+
 		uni.navigateTo({
 			url
 		})
 	}
 </script>
 
-<style lang="scss" scoped>
-	.mt-3{
-		margin-top: 15px;
-	}
-</style>
+<style lang="scss" scoped></style>
