@@ -1,6 +1,7 @@
 # 项目说明
 
 - 采用[vue3](https://cn.vuejs.org/)+vite+uniapp技术栈，setup语法糖编码方式
+- 引入[sard-uniapp](https://sutras.gitee.io/sard-uniapp-docs/#/)组件库
 - 全局请求入口已封装，使用时自己封装业务接口即可
 - 小程序打开场景封装，轻松拿到小程序是从哪里打开的
 - 配置pinia状态管理器

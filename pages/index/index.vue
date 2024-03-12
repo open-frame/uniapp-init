@@ -1,5 +1,5 @@
 <template>
-	<sar-button>按钮</sar-button>
+	<sar-notice-bar>{{ description }}</sar-notice-bar>
 	<sar-grid :columns="2" square gap="20rpx">
 		<sar-grid-item v-for="(item,index) in gridview" :key="index" @tap="toPage(item.path)">
 			<view class="modlus">
@@ -15,30 +15,38 @@
 	onShareAppMessage(() => {})
 	onShareTimeline(() => {})
 
-	// wx.login({
-	// 	success(e){
-	// 		console.log(e.code);
-	// 	}
-	// })
+
+	const description = `
+		欢迎使用【vue3-uniapp-init】
+			⩥采用vue3技术栈，setup语法糖编码方式
+			⩥引入sard-uniapp组件库
+			⩥全局请求入口已封装，使用时自己封装业务接口即可
+			⩥小程序打开场景封装，轻松拿到小程序是从哪里打开的
+			⩥配置pinia状态管理器
+			⩥配置api自动化引入（vue api、uniapp api），解放双手import
+			⩥已封装程序升级检测，新发布小程序会提醒用户升级
+			⩥简单提供项目分包案例 pages/status、pages/demo 等
+	`;
+
 	const gridview = [{
 			path: '/pages/demo/vue3',
 			title: 'vue3',
-			icon: "image"
+			icon: "record-circle"
 		},
 		{
 			path: '/pages/demo/pinia',
 			title: 'pinia',
-			icon: "image"
+			icon: "person"
 		},
 		{
 			path: '/pages/demo/form',
 			title: 'form',
-			icon: "image"
+			icon: "file"
 		},
 		{
 			path: '',
 			title: '沙漏',
-			icon: "image"
+			icon: "star"
 		},
 	]
 

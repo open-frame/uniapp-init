@@ -1,8 +1,7 @@
 <template>
-	<sar-progress-circle :percent="75" />
 	<sar-empty />
 
-	<sar-button @click="visible = !visible" root-style="margin-bottom: 20rpx">
+	<sar-button type="outline" @click="visible = !visible" root-style="margin-bottom: 20rpx">
 		{{ visible ? '折叠' : '展开' }}
 	</sar-button>
 
@@ -11,6 +10,9 @@
 			<view v-for="index in 9" :key="index">collapse {{ index }}</view>
 		</view>
 	</sar-collapse>
+
+	<sar-calendar v-model="value" />
+	<sar-slider v-model="slider" />
 </template>
 
 <script setup>
@@ -21,6 +23,8 @@
 	 */
 
 	const visible = ref(false)
+	const value = ref(new Date())
+	const slider = ref(66)
 </script>
 
 <style lang="scss" scoped>
