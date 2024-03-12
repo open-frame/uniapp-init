@@ -1,13 +1,13 @@
 {
-	  "repository": {
-	    "type": "git",
-	    "url": "https://gitee.com/charrie/vue3-uniapp-init"
-	  },
-  "devDependencies": {
-    "unplugin-auto-import": "^0.17.5"
-  },
-  "dependencies": {
-    "pinia": "^2.1.7",
-    "unocss": "^0.58.5"
-  }
+	"repository": {
+		"type": "git",
+		"url": "https://gitee.com/charrie/vue3-uniapp-init"
+	},
+	"devDependencies": {
+		"unplugin-auto-import": "^0.17.5"
+	},
+	"dependencies": {
+		"pinia": "^2.1.7",
+		"unocss": "^0.58.5"
+	}
 }
