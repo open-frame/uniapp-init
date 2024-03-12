@@ -24,12 +24,7 @@
 		},
 		{
 			"root": "pages/demo",
-			"pages": [{
-					"path": "unocss",
-					"style": {
-						"navigationBarTitleText": "unocss展示"
-					}
-				},
+			"pages": [
 				{
 					"path": "vue3",
 					"style": {
@@ -59,6 +54,13 @@
 				"text": "请求"
 			}
 		]
+	},
+	"easycom": {
+		"custom": {
+			"^u--(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+		}
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

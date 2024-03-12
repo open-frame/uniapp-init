@@ -32,7 +32,4 @@
 	})
 </script>
 
-<style>
-	/*全局样式 */
-
-</style>
+<style></style>
