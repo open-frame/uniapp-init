@@ -1,9 +1,7 @@
 <script setup>
 	import UpdateMonitor from '@/utils/update-monitor.js';
 	import sceneInfo from '@/utils/scene-info.js';
-	import {
-		useThemeStore
-	} from '@/store/index.js'
+	import { useThemeStore } from '@/store/index.js'
 
 	onLaunch((options) => {
 		// console.log(options);

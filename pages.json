@@ -7,6 +7,12 @@
 			}
 		},
 		{
+			"path": "pages/uView/demo",
+			"style": {
+				"navigationBarTitleText": "uView组件案例"
+			}
+		},
+		{
 			"path": "pages/requset/users",
 			"style": {
 				"navigationBarTitleText": "发请求案例"
@@ -24,8 +30,7 @@
 		},
 		{
 			"root": "pages/demo",
-			"pages": [
-				{
+			"pages": [{
 					"path": "vue3",
 					"style": {
 						"navigationBarTitleText": "vue3语法展示"
@@ -48,9 +53,15 @@
 				"text": "首页"
 			},
 			{
-				"pagePath": "pages/requset/users",
+				"pagePath": "pages/uView/demo",
 				"iconPath": "static/tabbar/commercial-0.png",
 				"selectedIconPath": "static/tabbar/commercial-1.png",
+				"text": "组件"
+			},
+			{
+				"pagePath": "pages/requset/users",
+				"iconPath": "static/tabbar/factory-0.png",
+				"selectedIconPath": "static/tabbar/factory-1.png",
 				"text": "请求"
 			}
 		]

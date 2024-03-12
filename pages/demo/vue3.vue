@@ -1,5 +1,5 @@
 <template>
-	<view>{{title}}</view>
+	<view>{{ title }}</view>
 	<view>{{ msg }}</view>
 	<view>{{ data.msg }}</view>
 	<view>{{ data.info }}</view>
