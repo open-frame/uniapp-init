@@ -45,8 +45,8 @@
 			icon: "file"
 		},
 		{
-			path: '',
-			title: '沙漏',
+			path: '/pages/demo/unocss',
+			title: 'unocss',
 			icon: "star"
 		},
 	]

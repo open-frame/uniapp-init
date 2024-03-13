@@ -1,9 +1,10 @@
 <template>
-	<sar-button type="outline" @click="visible = !visible" root-style="margin-bottom: 20rpx">
-		{{ visible ? '折叠' : '展开' }}
+	<sar-rate :model-value="2.5" allow-half void-text="好" text="好" />
+	
+	<sar-button type="outline" @click="collapseVisible = !collapseVisible" root-style="margin-bottom: 20rpx">
+		{{ collapseVisible ? '折叠' : '展开' }}
 	</sar-button>
-
-	<sar-collapse :visible="visible">
+	<sar-collapse :visible="collapseVisible">
 		<view style="padding: 20rpx; background-color: var(--sar-tertiary-bg)">
 			<view v-for="index in 9" :key="index">collapse {{ index }}</view>
 		</view>
@@ -11,7 +12,6 @@
 
 	<sar-calendar v-model="value" />
 	<sar-slider v-model="slider" />
-	<sar-rate :model-value="2.5" allow-half void-text="好" text="好" />
 
 	<sar-dialog-agent />
 	<sar-list card>
@@ -30,7 +30,7 @@
 	import { dialog } from 'sard-uniapp'
 
 
-	const visible = ref(false)
+	const collapseVisible = ref(false)
 	const value = ref(new Date())
 	const slider = ref(66)
 
@@ -55,6 +55,4 @@
 	}
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

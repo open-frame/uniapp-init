@@ -4,6 +4,9 @@
 		"url": "https://gitee.com/charrie/vue3-uniapp-init"
 	},
 	"devDependencies": {
+		"@iconify-json/tabler": "^1.1.107",
+		"unocss": "^0.58.5",
+		"unocss-applet": "^0.7.8",
 		"unplugin-auto-import": "^0.17.5",
 		"vite": "^4.5.0"
 	},
