@@ -2,6 +2,7 @@
 
 - 采用[vue3](https://cn.vuejs.org/)+vite+uniapp技术栈，setup语法糖编码方式
 - 引入[sard-uniapp](https://sutras.gitee.io/sard-uniapp-docs/#/)组件库
+- 搭配unocss量子化样式引擎，降低自己写css工作量，根据class动态生成css代码
 - 全局请求入口已封装，使用时自己封装业务接口即可
 - 小程序打开场景封装，轻松拿到小程序是从哪里打开的
 - 配置pinia状态管理器
