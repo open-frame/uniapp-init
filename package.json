@@ -4,10 +4,10 @@
 		"url": "https://gitee.com/charrie/vue3-uniapp-init"
 	},
 	"devDependencies": {
-		"unplugin-auto-import": "^0.17.5"
+		"unplugin-auto-import": "^0.17.5",
+		"vite": "^4.5.0"
 	},
 	"dependencies": {
-		"firstui-uni": "^2.3.0",
 		"pinia": "^2.1.7",
 		"sard-uniapp": "^1.0.4"
 	}
