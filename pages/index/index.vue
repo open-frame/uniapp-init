@@ -2,7 +2,7 @@
 	<sar-notice-bar>{{ description }}</sar-notice-bar>
 	<sar-grid :columns="2" square gap="20rpx">
 		<sar-grid-item v-for="(item,index) in gridview" :key="index" @tap="toPage(item.path)">
-			<view class="modlus">
+			<view class="text-center p-13 bg-#f0f8ff">
 				<sar-icon :name="item.icon" />
 				<view class="grid-box">{{ item.title }}</view>
 			</view>
@@ -63,12 +63,4 @@
 	}
 </script>
 
-<style lang="scss" scoped>
-	.modlus {
-		height: -webkit-fill-available;
-		width: -webkit-fill-available;
-		background-color: #f0f8ff;
-		padding: 58px;
-		text-align: center;
-	}
-</style>
+<style lang="scss" scoped></style>

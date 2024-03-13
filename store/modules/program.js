@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 
-const data = wx.getAccountInfoSync()
+const data = uni.getAccountInfoSync()
 export const useProgramStore = defineStore("program", {
 	state: () => ({
 		programInfo: data.miniProgram
