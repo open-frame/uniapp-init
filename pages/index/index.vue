@@ -9,7 +9,6 @@
 		</sar-grid-item>
 	</sar-grid>
 
-	<view class="i-tabler-alarm-plus"></view>
 </template>
 
 <script setup>
@@ -50,6 +49,11 @@
 			path: '/pages/demo/unocss',
 			title: 'unocss',
 			icon: "star"
+		},
+		{
+			path: '/pages/demo/svg',
+			title: 'svg',
+			icon: "image"
 		},
 	]
 

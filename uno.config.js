@@ -35,7 +35,7 @@ export default defineConfig({
 	 */
 	shortcuts: [
 		['flex-center', 'flex justify-center items-center'],
-		['grid-center', 'flex justify-center items-center']
+		['grid-center', 'grid justify-center items-center']
 	],
 	transformers: [
 		// 启用 @apply 功能

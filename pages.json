@@ -53,6 +53,12 @@
 					"style": {
 						"navigationBarTitleText": "unocss展示"
 					}
+				},
+				{
+					"path": "svg",
+					"style": {
+						"navigationBarTitleText": "svg展示"
+					}
 				}
 			]
 		}
