@@ -1,5 +1,7 @@
 <template>
-	<view class="text-red text-center">unocss</view>
+	<view class="text-red text-center">unocss class</view>
+	<view text-red text-center>unocss attribute</view>
+	<view class="i-tabler-alarm-plus"></view>
 	<view class="flex-col">
 		<view class="flex flex-wrap justify-around rounded-10 p-6 card-border">
 			<view class="m-2 h-15 w-15 rounded-2 border-1 border-solid flex items-center justify-around">

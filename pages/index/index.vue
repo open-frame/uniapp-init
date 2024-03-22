@@ -9,6 +9,7 @@
 		</sar-grid-item>
 	</sar-grid>
 
+	<view class="i-tabler-alarm-plus"></view>
 </template>
 
 <script setup>
@@ -53,10 +54,6 @@
 	]
 
 	function toPage(url) {
-		if (!url) {
-			return
-		}
-
 		uni.navigateTo({
 			url
 		})
