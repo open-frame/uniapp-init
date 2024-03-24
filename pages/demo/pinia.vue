@@ -4,8 +4,6 @@
 
 <script setup>
 	// https://uniapp.dcloud.net.cn/tutorial/platform.html
-	// #ifdef MP-WEIXIN
-	// 因为这个接口是微信特有的，所以只能在微信小程序中运行
 	import {
 		useSystemStore,
 		useCustomStore,
@@ -22,7 +20,7 @@
 	console.log(programInfoStore.programInfo);
 	console.log(customInfoStore.customInfo);
 	console.log(themeStore.themeInfo);
-	// #endif
+
 </script>
 
 <style scoped lang="scss"></style>

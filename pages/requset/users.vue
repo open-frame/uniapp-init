@@ -8,7 +8,7 @@
 			<view class="">{{ item.username }}</view>
 		</sar-list-item>
 	</sar-list>
-	
+
 	<sar-empty v-else />
 </template>
 
@@ -18,21 +18,16 @@
 	} from "./api.js"
 
 
-
-	let {
-		pageData,
-		total
-	} = toRefs(reactive({
-		pageData: [],
-		total: ""
-	}))
+	let pageData = reactive([])
+	const total = ref(0);
 
 	function getUsers() {
+		pageData=[];
 		users({
 			pageNo: 1,
 			pageSize: 20
 		}).then(res => {
-			pageData.value = res.data.pageData
+			pageData = res.data.pageData
 			total.value = res.data.total
 		})
 	}
