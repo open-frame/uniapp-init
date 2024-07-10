@@ -4,13 +4,11 @@
 
 # 技术说明
 
-- 采用[vue3](https://cn.vuejs.org/)+vite+uniapp技术栈，setup语法糖编码方式
-- 使用完全免费的[sard-uniapp](https://sutras.gitee.io/sard-uniapp-docs/#/)组件库
+- 采用[vue2](https://cn.vuejs.org/)+webpack+uniapp技术栈
 - 搭配unocss量子化样式引擎，降低自己写css工作量，根据class动态生成css代码
 - 封装全局请求入口，使用时自己封装业务接口即可
 - 小程序打开场景封装，轻松拿到小程序是从哪里打开的
-- 配置pinia状态管理器
-- 配置api自动化引入（vue3 api、uniapp api），解放双手import
+- 配置vueX状态管理器
 - 封装程序升级检测，新发布小程序会提醒用户升级
 - 简单提供项目分包案例 `pages/status`、`pages/demo` 等
 
