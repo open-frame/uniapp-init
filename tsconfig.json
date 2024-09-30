@@ -1,5 +1,7 @@
 {
-  "compilerOptions": {
-    "types": ["sard-uniapp/global"]
-  }
+	"compilerOptions": {
+		"types": [
+			"sard-uniapp/global"
+		]
+	}
 }

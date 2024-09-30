@@ -55,6 +55,11 @@
 			title: 'svg',
 			icon: "image"
 		},
+		{
+			path: '/pages/demo/iconify',
+			title: 'iconify',
+			icon: "square"
+		},
 	]
 
 	function toPage(url) {
@@ -62,6 +67,9 @@
 			url
 		})
 	}
+	
+	
+
 </script>
 
 <style lang="scss" scoped></style>

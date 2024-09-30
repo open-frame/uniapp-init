@@ -1,7 +1,7 @@
 <template>
 	<view class="text-red text-center">unocss class</view>
 	<view text-red text-center>unocss attribute</view>
-	<view class="i-tabler-alarm-plus"></view>
+	
 	<view class="flex-col">
 		<view class="flex flex-wrap justify-around rounded-10 p-6 card-border">
 			<view class="m-2 h-15 w-15 rounded-2 border-1 border-solid flex items-center justify-around">
@@ -19,7 +19,7 @@
 		</view>
 		
 		<view class="p-5 mt-20">
-			查询文档：https://uno.antfu.me/
+			查询文档：https://unocss.dev/interactive/
 		</view>
 		<view class="p-5">
 			实操练习场：https://unocss.antfu.me/play/
@@ -28,6 +28,10 @@
 </template>
 
 <script setup>
+	
+	
+	
+	
 </script>
 
 <style scoped lang="scss"></style>
