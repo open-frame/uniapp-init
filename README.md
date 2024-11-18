@@ -112,7 +112,7 @@
 
 # 大家讨论
 
-可以先到[Issues](https://github.com/open-frame/uniapp-init/discussion)看看别人提的解决方案。如没有，你可以提个。
+可以先到[discussions](https://github.com/open-frame/uniapp-init/discussions)看看别人提的解决方案。如没有，你可以提个。
 
 
 
