@@ -110,9 +110,11 @@
 
 可以先到[Issues](https://github.com/open-frame/uniapp-init/issues)看看别人提的解决方案。如没有，你可以提个。
 
-# 大家讨论
 
-可以先到[discussions](https://github.com/open-frame/uniapp-init/discussions)看看别人提的解决方案。如没有，你可以提个。
+
+# 话题讨论
+
+可以先到[discussions](https://github.com/open-frame/uniapp-init/discussions)看看别人讨论的话题。如没有，你可以提个。
 
 
 
@@ -120,7 +122,7 @@
 
 # 写在最后
 
-欢迎大家pr，让架子更好，帮到更多人
+欢迎大家[PR](https://github.com/open-frame/uniapp-init/pulls)，让架子更好，帮到更多人
 
 
 
