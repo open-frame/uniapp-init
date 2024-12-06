@@ -5,7 +5,7 @@
 # 技术说明
 
 - 采用[vue3](https://cn.vuejs.org/)+vite+uniapp技术栈，setup语法糖编码方式
-- 使用完全免费的[sard-uniapp](https://sutras.gitee.io/sard-uniapp-docs/#/)组件库
+- 使用ios风格的[sard-uniapp](https://sutras.gitee.io/sard-uniapp-docs/#/)组件库
 - 搭配unocss量子化样式引擎，降低自己写css工作量，根据class动态生成css代码
 - 封装全局请求入口，使用时自己封装业务接口即可
 - 小程序打开场景封装，轻松拿到小程序是从哪里打开的
