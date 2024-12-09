@@ -3,6 +3,7 @@
 /unpackage
 /dist
 dist.zip
+/hooks/auto-imports.d.ts
 
 
 # local env files
